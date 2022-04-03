@@ -1,24 +1,6 @@
-# image-carousel-vue
+# Простая карусель изображений с таймером
 
-## Project setup
-```
-npm install
-```
+Под изображениями находится прогресс-бар, который показывает номер картинки, фон заполняется в соответствии с таймером. 
+Стрелки переключают картинки и обнуляют таймер.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Для использования достаточно добавить в массив объекты с изображениями, где нужно указать название файла и альтернативный текст. При необходимости скорректировать атрибут src в теге img.
